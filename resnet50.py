@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from keras.callbacks import ModelCheckpoint
 
 
-path = "C:/Users/Luana/Documents/TCC/"
+path = "./"
 
 LABELS = ["pessoa", "capacete", "luvas", "colete", "mascara"]
 
