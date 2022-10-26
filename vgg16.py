@@ -16,7 +16,7 @@ LABELS = ["pessoa", "capacete", "luvas", "colete", "mascara"]
 
 IMG_WIDTH, IMG_HEIGHT = 135, 240 #54, 96 #108, 192 
 
-n_epoca = 100
+n_epoca = 1000
 
 n_pasta = '1'
 
