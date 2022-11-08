@@ -9,18 +9,17 @@ from sklearn.metrics import classification_report, accuracy_score
 from keras.callbacks import ModelCheckpoint
 
 
-#path = "C:/Users/Luana/Documents/TCC/"
 path = "./"
 
 LABELS = ["pessoa", "capacete", "luvas", "colete", "mascara"]
 
 IMG_WIDTH, IMG_HEIGHT = 135, 240 #54, 96 #108, 192 
 
-n_epoca = 1000
+n_epoca = 2000
 
 n_pasta = '1'
 
-BATCH_SIZE = 128 #64
+BATCH_SIZE = 64 #128
 
 #Uma coisa importante sobre o Mini-Batch é que, é melhor escolher o tamanho do Mini-Batch como múltiplo de 2 e os valores comuns são: 64, 128, 256 e 512.
 # https://www.deeplearningbook.com.br/definindo-o-tamanho-do-mini-batch/
